@@ -1,0 +1,71 @@
+body{
+    margin: 0;
+        
+    nav{
+        position: fixed;
+        background-color: #009FE3;
+        width: 250px;
+        height: 100vh;
+        
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+        header, section {
+            margin-top: 5px;
+            margin-bottom: 12px;
+            padding-bottom: 10px;
+            border-bottom: white solid 1px;
+            width: 200px;
+            text {
+                color: white;
+            }
+        }
+
+        .myPageBox{
+            margin: auto;
+            margin-bottom: 10px;
+            width: 170px;
+            height: 50px;
+            background-color: white;
+            border-radius: 7px;
+
+            display: flex;
+            justify-content: space-between;
+
+            text{
+                width: 50px;
+                color:black;
+            }
+            button{
+                width: 30px;
+                height: 30px;
+            }
+        }
+
+        a {
+            display: block;
+            margin-top: 10px;
+        }
+
+        footer {
+            position: fixed;
+            bottom: 0;
+            text-align: center;
+        }
+    }
+
+}
+
+main {
+    margin-left: 250px;
+    
+    .tag{
+        display: flex;
+        flex-direction: row;
+        div{
+            border: solid 1px #009FE3;
+            border-radius: 7px;
+        }
+    }
+}

@@ -1,51 +1,61 @@
 body {
-  background-color: #009FE3;
-  padding: 20px;
+  margin: 0;
 }
-
-main {
+body nav {
+  position: fixed;
+  background-color: #009FE3;
+  width: 250px;
+  height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
 }
-
-text {
-  color: white;
-  font-size: 17px;
-}
-
-section {
-  margin-bottom: 25px;
-}
-
-.inputBox, .finishBtn {
+body nav header, body nav section {
   margin-top: 5px;
-  margin-bottom: 5px;
-  width: 400px;
-  height: 35px;
-  border: 0;
+  margin-bottom: 12px;
+  padding-bottom: 10px;
+  border-bottom: white solid 1px;
+  width: 200px;
+}
+body nav header text, body nav section text {
+  color: white;
+}
+body nav .myPageBox {
+  margin: auto;
+  margin-bottom: 10px;
+  width: 170px;
+  height: 50px;
+  background-color: white;
   border-radius: 7px;
+  display: flex;
+  justify-content: space-between;
+}
+body nav .myPageBox text {
+  width: 50px;
+  color: black;
+}
+body nav .myPageBox button {
+  width: 30px;
+  height: 30px;
+}
+body nav a {
+  display: block;
+  margin-top: 10px;
+}
+body nav footer {
+  position: fixed;
+  bottom: 0;
+  text-align: center;
 }
 
-.finishBtn {
-  color: #009FE3;
-  font-size: 17px;
+main {
+  margin-left: 250px;
 }
-
-.check {
-  width: 400px;
+main .tag {
+  display: flex;
+  flex-direction: row;
 }
-.check article {
-  margin: 10px;
-  font-size: 14px;
-  color: white;
-}
-.check input {
-  margin-top: 5px;
-  margin-bottom: 5px;
-  width: 400px;
-  height: 35px;
-  border: solid white 1px;
+main .tag div {
+  border: solid 1px #009FE3;
   border-radius: 7px;
 }/*# sourceMappingURL=style.css.map */
