@@ -99,25 +99,9 @@ main .tag div {
   margin-right: 10px;
   margin-left: 10px;
 }
-main .toggleBG {
-  width: 40px;
-  height: 20px;
-  border-radius: 20px;
-  border: #909090 solid 2px;
-  background-color: #fff;
-}
-main .toggleBG .toggleFG {
-  width: 16px;
-  height: 16px;
-  border-radius: 50px;
-  background: #909090;
-  border: 0;
-  position: relative;
-  left: 2px;
-}
 main .writingSection .writingBox {
   margin: 10px;
-  padding: 5px;
+  padding-left: 10px;
   width: 350px;
   height: 170px;
   border-radius: 10px;
@@ -127,6 +111,4 @@ main .writingSection .writingBox {
 main .writingSection .writingBox .under {
   position: relative;
   top: 40px;
-  display: flex;
-  justify-content: space-between;
 }/*# sourceMappingURL=style.css.map */

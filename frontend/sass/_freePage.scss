@@ -102,40 +102,19 @@ main {
         }
     }
 //#009FE3
-    .writingSection{
-        .toggleBG{
-            width: 40px;
-            height: 20px;
-            border-radius: 20px;
-            border:#909090 solid 2px;
-            background-color: #fff;
-            display: inline-block;
-            margin: 0;
-            .toggleFG{
-                width: 16px;
-                height: 16px;
-                border-radius: 50px;
-                background: #909090;
-                border: 0;
-                position: relative;
-                left: 2px;
-            }
-        }
-       
-    
+    .writingSection{    
         .writingBox{
             margin:10px;
-            padding: 5px;
+            padding-left: 10px;
             width: 350px;
             height: 170px;
             border-radius: 10px;
             border: solid rgb(198, 198, 198) 2px;
             display: inline-block;
+        
             .under{
                 position: relative;
                 top: 40px;
-                display: flex;
-                justify-content: space-between;
             }
         }
     }
