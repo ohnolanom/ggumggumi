@@ -2,20 +2,14 @@ body {
   margin: 0;
 }
 
-<<<<<<< HEAD
 nav {
   position: fixed;
   background-color: #009FE3;
   width: 250px;
   height: 100vh;
-=======
-.te {
-  border: solid white 2px;
-  border-radius: 7px;
->>>>>>> 958de3a89cff4435a6d4f8e81997f62979b64f6b
   display: flex;
+  flex-direction: column;
   align-items: center;
-<<<<<<< HEAD
 }
 nav header, nav section {
   margin-top: 5px;
@@ -105,14 +99,16 @@ main .tag div {
   margin-right: 10px;
   margin-left: 10px;
 }
-main .toggleBG {
+main .writingSection .toggleBG {
   width: 40px;
   height: 20px;
   border-radius: 20px;
   border: #909090 solid 2px;
   background-color: #fff;
+  display: inline-block;
+  margin: 0;
 }
-main .toggleBG .toggleFG {
+main .writingSection .toggleBG .toggleFG {
   width: 16px;
   height: 16px;
   border-radius: 50px;
@@ -135,7 +131,18 @@ main .writingSection .writingBox .under {
   top: 40px;
   display: flex;
   justify-content: space-between;
-=======
+}
+
+body {
+  background-color: #009FE3;
+  padding: 20px;
+}
+
+.te {
+  border: solid white 2px;
+  border-radius: 7px;
+  display: flex;
+  align-items: center;
   justify-content: center;
   height: 90vh;
 }
@@ -160,5 +167,139 @@ main .writingSection .writingBox .under {
   border: solid rgb(245, 255, 51) 2px;
   width: 250px;
   height: 50px;
->>>>>>> 958de3a89cff4435a6d4f8e81997f62979b64f6b
+}
+
+body {
+  margin: 0;
+}
+
+nav {
+  position: fixed;
+  background-color: #009FE3;
+  width: 250px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+nav header, nav section {
+  margin-top: 5px;
+  margin-bottom: 12px;
+  padding-bottom: 10px;
+  border-bottom: white solid 1px;
+  width: 200px;
+}
+nav header text, nav section text {
+  color: white;
+}
+nav .myPageBox {
+  margin: auto;
+  margin-bottom: 10px;
+  width: 170px;
+  height: 50px;
+  background-color: white;
+  border-radius: 7px;
+  display: flex;
+  justify-content: space-between;
+}
+nav .myPageBox text {
+  width: 50px;
+  color: black;
+}
+nav .myPageBox button {
+  width: 30px;
+  height: 30px;
+}
+nav a {
+  display: block;
+  margin-top: 10px;
+}
+nav footer {
+  position: fixed;
+  bottom: 0;
+  text-align: center;
+}
+
+main {
+  margin-left: 250px;
+}
+main .inputBox {
+  width: 100%;
+  height: 40px;
+  white-space: nowrap;
+  padding-bottom: 5px;
+  border-bottom: solid rgb(190, 190, 190) 3px;
+}
+main .inputBox input {
+  width: 90%;
+  height: 84%;
+  font-size: 18px;
+  display: inline-block;
+  border: none;
+  outline: none;
+  padding-left: 10px;
+  padding-top: 5px;
+}
+main .inputBox input::-moz-placeholder {
+  color: rgb(171, 171, 171);
+}
+main .inputBox input:-ms-input-placeholder {
+  color: rgb(171, 171, 171);
+}
+main .inputBox input::placeholder {
+  color: rgb(171, 171, 171);
+}
+main .inputBox button {
+  width: 40px;
+  height: 100%;
+  display: inline-block;
+  margin-left: -7px;
+  outline: none;
+  border: none;
+}
+main .tag {
+  display: flex;
+  flex-direction: row;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+main .tag div {
+  border: solid 1px #009FE3;
+  border-radius: 15px;
+  padding: 3px 10px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+main .writingSection .toggleBG {
+  width: 40px;
+  height: 20px;
+  border-radius: 20px;
+  border: #909090 solid 2px;
+  background-color: #fff;
+  display: inline-block;
+  margin: 0;
+}
+main .writingSection .toggleBG .toggleFG {
+  width: 16px;
+  height: 16px;
+  border-radius: 50px;
+  background: #909090;
+  border: 0;
+  position: relative;
+  left: 2px;
+}
+main .writingSection .writingBox {
+  margin: 10px;
+  padding: 5px;
+  width: 350px;
+  height: 170px;
+  border-radius: 10px;
+  border: solid rgb(198, 198, 198) 2px;
+  display: inline-block;
+}
+main .writingSection .writingBox .under {
+  position: relative;
+  top: 40px;
+  display: flex;
+  justify-content: space-between;
 }/*# sourceMappingURL=style.css.map */
