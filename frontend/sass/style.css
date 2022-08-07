@@ -2,14 +2,20 @@ body {
   margin: 0;
 }
 
+<<<<<<< HEAD
 nav {
   position: fixed;
   background-color: #009FE3;
   width: 250px;
   height: 100vh;
+=======
+.te {
+  border: solid white 2px;
+  border-radius: 7px;
+>>>>>>> 958de3a89cff4435a6d4f8e81997f62979b64f6b
   display: flex;
-  flex-direction: column;
   align-items: center;
+<<<<<<< HEAD
 }
 nav header, nav section {
   margin-top: 5px;
@@ -129,4 +135,30 @@ main .writingSection .writingBox .under {
   top: 40px;
   display: flex;
   justify-content: space-between;
+=======
+  justify-content: center;
+  height: 90vh;
+}
+.te main {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  width: 400px;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #ffffff;
+  text-align: center;
+}
+.te main h1 {
+  margin-top: 0px;
+}
+.te main .beforClick {
+  margin: 2px;
+  padding: 10px;
+  border: solid rgb(245, 255, 51) 2px;
+  width: 250px;
+  height: 50px;
+>>>>>>> 958de3a89cff4435a6d4f8e81997f62979b64f6b
 }/*# sourceMappingURL=style.css.map */
