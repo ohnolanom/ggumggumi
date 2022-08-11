@@ -169,68 +169,68 @@
   height: 50px;
 }
 
-.recruitPageBod {
-  margin: 0;
+.signUpBody {
+  background-color: #009FE3;
+  padding: 20px;
 }
 
-.navbar {
-  position: fixed;
-  background-color: #009FE3;
-  width: 250px;
-  height: 100vh;
+.signUpMain {
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
 }
-.navbar header, .navbar section {
+.signUpMain section {
+  margin-bottom: 25px;
+}
+.signUpMain section text {
+  color: white;
+  font-size: 17px;
+}
+.signUpMain .inputBox, .signUpMain .finishBtn {
   margin-top: 5px;
-  margin-bottom: 12px;
-  padding-bottom: 10px;
-  border-bottom: white solid 1px;
-  width: 200px;
+  margin-bottom: 5px;
+  width: 400px;
+  height: 35px;
+  border: 0;
+  border-radius: 7px;
 }
-.navbar header text, .navbar section text {
+.signUpMain .finishBtn {
+  color: #009FE3;
+  font-size: 17px;
+}
+.signUpMain .check {
+  width: 400px;
+}
+.signUpMain .check article {
+  margin: 10px;
+  font-size: 14px;
   color: white;
 }
-.navbar .myPageBox {
-  margin: auto;
-  margin-bottom: 10px;
-  width: 170px;
-  height: 50px;
-  background-color: white;
+.signUpMain .check input {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  width: 400px;
+  height: 35px;
+  border: solid white 1px;
   border-radius: 7px;
-  display: flex;
-  justify-content: space-between;
-}
-.navbar .myPageBox text {
-  width: 50px;
-  color: black;
-}
-.navbar .myPageBox button {
-  width: 30px;
-  height: 30px;
-}
-.navbar a {
-  display: block;
-  margin-top: 10px;
-}
-.navbar footer {
-  position: fixed;
-  bottom: 0;
-  text-align: center;
 }
 
-.recruitPageMain {
+.freePageBody {
+  margin: 0;
+}
+
+.freePageMain {
   margin-left: 250px;
 }
-.recruitPageMain .inputBox {
+.freePageMain .inputBox {
   width: 100%;
   height: 40px;
   white-space: nowrap;
   padding-bottom: 5px;
   border-bottom: solid rgb(190, 190, 190) 3px;
 }
-.recruitPageMain .inputBox input {
+.freePageMain .inputBox input {
   width: 90%;
   height: 84%;
   font-size: 18px;
@@ -240,16 +240,16 @@
   padding-left: 10px;
   padding-top: 5px;
 }
-.recruitPageMain .inputBox input::-moz-placeholder {
+.freePageMain .inputBox input::-moz-placeholder {
   color: rgb(171, 171, 171);
 }
-.recruitPageMain .inputBox input:-ms-input-placeholder {
+.freePageMain .inputBox input:-ms-input-placeholder {
   color: rgb(171, 171, 171);
 }
-.recruitPageMain .inputBox input::placeholder {
+.freePageMain .inputBox input::placeholder {
   color: rgb(171, 171, 171);
 }
-.recruitPageMain .inputBox button {
+.freePageMain .inputBox button {
   width: 40px;
   height: 100%;
   display: inline-block;
@@ -257,49 +257,29 @@
   outline: none;
   border: none;
 }
-.recruitPageMain .tag {
+.freePageMain .tag {
   display: flex;
   flex-direction: row;
   margin-top: 15px;
   margin-bottom: 15px;
 }
-.recruitPageMain .tag div {
+.freePageMain .tag div {
   border: solid 1px #009FE3;
   border-radius: 15px;
   padding: 3px 10px;
   margin-right: 10px;
   margin-left: 10px;
 }
-.recruitPageMain .writingSection .toggleBG {
-  width: 40px;
-  height: 20px;
-  border-radius: 20px;
-  border: #909090 solid 2px;
-  background-color: #fff;
-  display: inline-block;
-  margin: 0;
-}
-.recruitPageMain .writingSection .toggleBG .toggleFG {
-  width: 16px;
-  height: 16px;
-  border-radius: 50px;
-  background: #909090;
-  border: 0;
-  position: relative;
-  left: 2px;
-}
-.recruitPageMain .writingSection .writingBox {
+.freePageMain .writingSection .writingBox {
   margin: 10px;
-  padding: 5px;
+  padding-left: 10px;
   width: 350px;
   height: 170px;
   border-radius: 10px;
   border: solid rgb(198, 198, 198) 2px;
   display: inline-block;
 }
-.recruitPageMain .writingSection .writingBox .under {
+.freePageMain .writingSection .writingBox .under {
   position: relative;
   top: 40px;
-  display: flex;
-  justify-content: space-between;
 }/*# sourceMappingURL=style.css.map */
