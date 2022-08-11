@@ -341,10 +341,124 @@
 .recruitDetailMain .writingSection .writingBox .boxOne, .recruitDetailMain .writingSection .writingBox .boxTwo {
   margin: 10px;
   padding: 30px;
-  width: 380px;
+  width: 370px;
   height: 350px;
   border-radius: 10px;
   display: inline-grid;
   background-color: rgba(182, 210, 233, 0.94);
   text-align: start;
+}
+
+.recruitWriteBody {
+  margin: 0;
+}
+
+.recruitWriteMain {
+  margin-left: 250px;
+}
+.recruitWriteMain .inputBox {
+  width: 100%;
+  height: 40px;
+  white-space: nowrap;
+  padding-bottom: 5px;
+  border-bottom: solid rgb(190, 190, 190) 3px;
+}
+.recruitWriteMain .inputBox input {
+  width: 90%;
+  height: 84%;
+  font-size: 18px;
+  display: inline-block;
+  border: none;
+  outline: none;
+  padding-left: 10px;
+  padding-top: 5px;
+}
+.recruitWriteMain .inputBox input::-moz-placeholder {
+  color: rgb(171, 171, 171);
+}
+.recruitWriteMain .inputBox input:-ms-input-placeholder {
+  color: rgb(171, 171, 171);
+}
+.recruitWriteMain .inputBox input::placeholder {
+  color: rgb(171, 171, 171);
+}
+.recruitWriteMain .inputBox button {
+  width: 40px;
+  height: 100%;
+  display: inline-block;
+  margin-left: -7px;
+  outline: none;
+  border: none;
+}
+.recruitWriteMain .writingSection {
+  text-align: center;
+  margin: 20px;
+}
+.recruitWriteMain .writingSection .writingBox {
+  max-width: 1100px;
+  display: inline-block;
+}
+.recruitWriteMain .writingSection .writingBox .title {
+  margin-top: 20px;
+  width: 50vw;
+  height: 45px;
+  border-radius: 10px;
+  border: 1px solid gray;
+  display: inline-block;
+  font-size: 20px;
+  padding: 5px;
+}
+.recruitWriteMain .writingSection .writingBox .boxOne, .recruitWriteMain .writingSection .writingBox .boxTwo {
+  margin: 10px;
+  padding: 30px;
+  width: 350px;
+  height: 450px;
+  display: inline-grid;
+  text-align: start;
+}
+.recruitWriteMain .writingSection .writingBox .boxOne {
+  font-size: 20px;
+}
+.recruitWriteMain .writingSection .writingBox .boxOne .recruitType select {
+  margin: 5px 0px;
+  width: 310px;
+  height: 45px;
+  border-radius: 10px;
+  border: 1px solid gray;
+  font-size: 15px;
+  padding-left: 7px;
+}
+.recruitWriteMain .writingSection .writingBox .boxOne input {
+  margin: 5px 0px;
+  width: 300px;
+  height: 40px;
+  border-radius: 10px;
+  padding-left: 10px;
+  border: 1px solid gray;
+  font-size: 15px;
+}
+.recruitWriteMain .writingSection .writingBox .boxTwo {
+  font-size: 20px;
+}
+.recruitWriteMain .writingSection .writingBox .boxTwo textarea {
+  margin: 5px 0px;
+  height: 400px;
+  width: 320px;
+  border-radius: 10px;
+  padding: 10px;
+  font-size: 15px;
+}
+.recruitWriteMain .writingSection .submitBtn {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  margin: 30px 0px;
+  width: 70vw;
+  height: 45px;
+  border: 0;
+  border-radius: 10px;
+  padding-left: 10px;
+  font-size: 20px;
+  background-color: #009FE3;
+  color: white;
 }/*# sourceMappingURL=style.css.map */
