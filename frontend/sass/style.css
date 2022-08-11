@@ -1,8 +1,8 @@
-body {
+.freePageBody {
   margin: 0;
 }
 
-nav {
+.navbar {
   position: fixed;
   background-color: #009FE3;
   width: 250px;
@@ -11,17 +11,17 @@ nav {
   flex-direction: column;
   align-items: center;
 }
-nav header, nav section {
+.navbar header, .navbar section {
   margin-top: 5px;
   margin-bottom: 12px;
   padding-bottom: 10px;
   border-bottom: white solid 1px;
   width: 200px;
 }
-nav header text, nav section text {
+.navbar header text, .navbar section text {
   color: white;
 }
-nav .myPageBox {
+.navbar .myPageBox {
   margin: auto;
   margin-bottom: 10px;
   width: 170px;
@@ -31,35 +31,35 @@ nav .myPageBox {
   display: flex;
   justify-content: space-between;
 }
-nav .myPageBox text {
+.navbar .myPageBox text {
   width: 50px;
   color: black;
 }
-nav .myPageBox button {
+.navbar .myPageBox button {
   width: 30px;
   height: 30px;
 }
-nav a {
+.navbar a {
   display: block;
   margin-top: 10px;
 }
-nav footer {
+.navbar footer {
   position: fixed;
   bottom: 0;
   text-align: center;
 }
 
-main {
+.freePageMain {
   margin-left: 250px;
 }
-main .inputBox {
+.freePageMain .inputBox {
   width: 100%;
   height: 40px;
   white-space: nowrap;
   padding-bottom: 5px;
   border-bottom: solid rgb(190, 190, 190) 3px;
 }
-main .inputBox input {
+.freePageMain .inputBox input {
   width: 90%;
   height: 84%;
   font-size: 18px;
@@ -69,16 +69,16 @@ main .inputBox input {
   padding-left: 10px;
   padding-top: 5px;
 }
-main .inputBox input::-moz-placeholder {
+.freePageMain .inputBox input::-moz-placeholder {
   color: rgb(171, 171, 171);
 }
-main .inputBox input:-ms-input-placeholder {
+.freePageMain .inputBox input:-ms-input-placeholder {
   color: rgb(171, 171, 171);
 }
-main .inputBox input::placeholder {
+.freePageMain .inputBox input::placeholder {
   color: rgb(171, 171, 171);
 }
-main .inputBox button {
+.freePageMain .inputBox button {
   width: 40px;
   height: 100%;
   display: inline-block;
@@ -86,20 +86,20 @@ main .inputBox button {
   outline: none;
   border: none;
 }
-main .tag {
+.freePageMain .tag {
   display: flex;
   flex-direction: row;
   margin-top: 15px;
   margin-bottom: 15px;
 }
-main .tag div {
+.freePageMain .tag div {
   border: solid 1px #009FE3;
   border-radius: 15px;
   padding: 3px 10px;
   margin-right: 10px;
   margin-left: 10px;
 }
-main .writingSection .writingBox {
+.freePageMain .writingSection .writingBox {
   margin: 10px;
   padding-left: 10px;
   width: 350px;
@@ -108,7 +108,7 @@ main .writingSection .writingBox {
   border: solid rgb(198, 198, 198) 2px;
   display: inline-block;
 }
-main .writingSection .writingBox .under {
+.freePageMain .writingSection .writingBox .under {
   position: relative;
   top: 40px;
 }/*# sourceMappingURL=style.css.map */
