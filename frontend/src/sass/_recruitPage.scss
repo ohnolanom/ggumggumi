@@ -1,8 +1,8 @@
-body{
+.recruitPageBod{
     margin: 0;
 }
 
-nav{
+.navbar{
     position: fixed;
     background-color: #009FE3;
     width: 250px;
@@ -56,7 +56,7 @@ nav{
     }
 }
 
-main {
+.recruitPageMain {
     margin-left: 250px;
     
     .inputBox{
