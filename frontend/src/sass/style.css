@@ -1,4 +1,4 @@
-.recruitPageBod {
+.recruitPageBody {
   margin: 0;
 }
 
@@ -14,12 +14,9 @@
 .navbar header, .navbar section {
   margin-top: 5px;
   margin-bottom: 12px;
-  padding-bottom: 10px;
+  padding-bottom: 15px;
   border-bottom: white solid 1px;
   width: 200px;
-}
-.navbar header text, .navbar section text {
-  color: white;
 }
 .navbar .myPageBox {
   margin: auto;
@@ -39,9 +36,18 @@
   width: 30px;
   height: 30px;
 }
-.navbar a {
-  display: block;
+.navbar .board text, .navbar .linkTo text, .navbar .main text {
+  color: white;
+}
+.navbar .board div, .navbar .linkTo div, .navbar .main div {
   margin-top: 10px;
+}
+.navbar .board div .fa-house, .navbar .linkTo div .fa-house, .navbar .main div .fa-house {
+  color: white;
+}
+.navbar .board div a, .navbar .linkTo div a, .navbar .main div a {
+  text-decoration: none;
+  color: white;
 }
 .navbar footer {
   position: fixed;
@@ -461,4 +467,57 @@
   font-size: 20px;
   background-color: #009FE3;
   color: white;
+}
+
+.navbar {
+  position: fixed;
+  background-color: #009FE3;
+  width: 250px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.navbar header, .navbar section {
+  margin-top: 5px;
+  margin-bottom: 12px;
+  padding-bottom: 15px;
+  border-bottom: white solid 1px;
+  width: 200px;
+}
+.navbar .myPageBox {
+  margin: auto;
+  margin-bottom: 10px;
+  width: 170px;
+  height: 50px;
+  background-color: white;
+  border-radius: 7px;
+  display: flex;
+  justify-content: space-between;
+}
+.navbar .myPageBox text {
+  width: 50px;
+  color: black;
+}
+.navbar .myPageBox button {
+  width: 30px;
+  height: 30px;
+}
+.navbar .board text, .navbar .linkTo text, .navbar .main text {
+  color: white;
+}
+.navbar .board div, .navbar .linkTo div, .navbar .main div {
+  margin-top: 10px;
+}
+.navbar .board div .fa-house, .navbar .linkTo div .fa-house, .navbar .main div .fa-house {
+  color: white;
+}
+.navbar .board div a, .navbar .linkTo div a, .navbar .main div a {
+  text-decoration: none;
+  color: white;
+}
+.navbar footer {
+  position: fixed;
+  bottom: 0;
+  text-align: center;
 }/*# sourceMappingURL=style.css.map */
