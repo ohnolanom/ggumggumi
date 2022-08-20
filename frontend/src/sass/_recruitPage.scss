@@ -1,4 +1,4 @@
-.recruitPageBod{
+.recruitPageBody{
     margin: 0;
 }
 
@@ -15,12 +15,9 @@
     header, section {
         margin-top: 5px;
         margin-bottom: 12px;
-        padding-bottom: 10px;
+        padding-bottom: 15px;
         border-bottom: white solid 1px;
         width: 200px;
-        text {
-            color: white;
-        }
     }
 
     .myPageBox{
@@ -44,9 +41,20 @@
         }
     }
 
-    a {
-        display: block;
-        margin-top: 10px;
+    .board, .linkTo, .main{
+        text {
+            color: white;
+        }
+        div{
+            margin-top: 10px;
+            .fa-house {
+                color: white;
+            }
+            a{
+                text-decoration: none;
+                color: white;
+            }
+        }
     }
 
     footer {
