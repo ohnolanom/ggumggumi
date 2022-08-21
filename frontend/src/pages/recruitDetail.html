@@ -8,23 +8,34 @@
     <title>꿈꾸미</title>
     <script src="https://kit.fontawesome.com/83c8b98790.js" crossorigin="anonymous"></script>
 </head>
-<body class="recruitDetailBody">
+<body>
     <nav class="navbar">
         <header>
             꿈꾸미LOGO
-            <icon></icon>
+            <i class="fa-solid fa-square-arrow-down-right"></i>  
+            <i class="fa-solid fa-square-arrow-down-left"></i>
         </header>
         <section class="myPage">
             <div class="myPageBox">
-                <text>이름</text>
-                <button>^</button>
+                <div class="userRound">
+                    <i class="fa-solid fa-user"></i>
+                </div>
+                <div class="nameBox">
+                    <text class="name">이름</text><br>
+                    <text class="school">00대학교</text>
+                </div>
+                <i id="fa-circle-chevron-down" class="fa-solid fa-circle-chevron-down"></i>
+                <i id="fa-circle-chevron-up" class="fa-solid fa-circle-chevron-up"></i>
+            </div>
+            <div class="hiddenMyPage" id="hiddenMyPage">
+                마이페이지
             </div>
         </section>
         <section class="main">
             <text>MAIN</text>
             <div>
                 <i class="fa-solid fa-house"></i>
-                <a>공지사항</a>
+                <a href="http://127.0.0.1:5501/frontend/src/pages/noticePage.html">공지사항</a>
             </div>
         </section>
         <section class="board">
@@ -97,10 +108,24 @@
                     </div>
                 </div>
             </article>
-        </section> 
-        <section class="comment">
 
-        </section>
+            <article class="comment">
+                <div class="commentInput">
+                    <input type="text" placeholder="댓글을 입력하세요">
+                    <i class="fa-solid fa-circle-plus commentPlus"></i>
+                </div>
+                <div class="commentLook">
+                    <div class="nthCommet">
+                        <text class="cmtContent">안녕하세요? 저도 참여하고 싶은데 혹시 기상 시간은 몇시 쯤으로 생각하고 계신가요?</text>
+                        <text class="cmtDate">22.07.24 장서령</text>
+                    </div>
+                    <div class="nthCommet">
+                        <text class="cmtContent">안녕하세요? 저도 참여하고 싶은데 혹시 기상 시간은 몇시 쯤으로 생각하고 계신가요?</text>
+                        <text class="cmtDate">22.07.24 장서령</text>
+                    </div>
+                </div>
+            </article>
+        </section> 
     </main>
 </body>
 

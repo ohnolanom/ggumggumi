@@ -1,96 +1,5 @@
-.recruitPageBody {
-  margin: 0;
-}
-
-.navbar {
-  position: fixed;
-  background-color: #009FE3;
-  width: 250px;
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-.navbar header, .navbar section {
-  margin-top: 5px;
-  margin-bottom: 12px;
-  padding-bottom: 15px;
-  border-bottom: white solid 1px;
-  width: 200px;
-}
-.navbar .myPageBox {
-  margin: auto;
-  margin-bottom: 10px;
-  width: 170px;
-  height: 50px;
-  background-color: white;
-  border-radius: 7px;
-  display: flex;
-  justify-content: space-between;
-}
-.navbar .myPageBox text {
-  width: 50px;
-  color: black;
-}
-.navbar .myPageBox button {
-  width: 30px;
-  height: 30px;
-}
-.navbar .board text, .navbar .linkTo text, .navbar .main text {
-  color: white;
-}
-.navbar .board div, .navbar .linkTo div, .navbar .main div {
-  margin-top: 10px;
-}
-.navbar .board div .fa-house, .navbar .linkTo div .fa-house, .navbar .main div .fa-house {
-  color: white;
-}
-.navbar .board div a, .navbar .linkTo div a, .navbar .main div a {
-  text-decoration: none;
-  color: white;
-}
-.navbar footer {
-  position: fixed;
-  bottom: 0;
-  text-align: center;
-}
-
 .recruitPageMain {
   margin-left: 250px;
-}
-.recruitPageMain .inputBox {
-  width: 100%;
-  height: 40px;
-  white-space: nowrap;
-  padding-bottom: 5px;
-  border-bottom: solid rgb(190, 190, 190) 3px;
-}
-.recruitPageMain .inputBox input {
-  width: 90%;
-  height: 84%;
-  font-size: 18px;
-  display: inline-block;
-  border: none;
-  outline: none;
-  padding-left: 10px;
-  padding-top: 5px;
-}
-.recruitPageMain .inputBox input::-moz-placeholder {
-  color: rgb(171, 171, 171);
-}
-.recruitPageMain .inputBox input:-ms-input-placeholder {
-  color: rgb(171, 171, 171);
-}
-.recruitPageMain .inputBox input::placeholder {
-  color: rgb(171, 171, 171);
-}
-.recruitPageMain .inputBox button {
-  width: 40px;
-  height: 100%;
-  display: inline-block;
-  margin-left: -7px;
-  outline: none;
-  border: none;
 }
 .recruitPageMain .tag {
   display: flex;
@@ -112,7 +21,7 @@
   border: #909090 solid 2px;
   background-color: #fff;
   display: inline-block;
-  margin: 0;
+  margin: 0 0 0 10px;
 }
 .recruitPageMain .writingSection .toggleBG .toggleFG {
   width: 16px;
@@ -122,6 +31,9 @@
   border: 0;
   position: relative;
   left: 2px;
+}
+.recruitPageMain .writingSection .toggleText {
+  font-size: 15px;
 }
 .recruitPageMain .writingSection .writingBox {
   margin: 10px;
@@ -153,26 +65,70 @@
   height: 90vh;
 }
 .loginBorder .loginMain {
-  margin-top: 30px;
-  margin-bottom: 30px;
   width: 400px;
   height: 400px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-color: #ffffff;
-  text-align: center;
 }
 .loginBorder .loginMain h1 {
   margin-top: 0px;
+  text-align: center;
+}
+.loginBorder .loginMain .loginClick {
+  width: 400px;
+  height: 50px;
+  padding: 0 10px;
+  background-color: white;
+  border-radius: 7px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+.loginBorder .loginMain .loginClick text {
+  font-size: 22px;
+}
+.loginBorder .loginMain .loginClick .fa-circle-chevron-down {
+  display: "";
+  width: 30px;
+  height: 30px;
+  color: #009FE3;
+}
+.loginBorder .loginMain .loginClick .fa-circle-chevron-up {
+  display: none;
+  width: 30px;
+  height: 30px;
+  color: #009FE3;
 }
 .loginBorder .loginMain .beforClick {
   margin: 2px;
   padding: 10px;
-  border: solid rgb(245, 255, 51) 2px;
-  width: 250px;
+  border: solid white 2px;
+  width: 395px;
+  height: 120px;
+  padding: 5px 10px;
+  border-radius: 7px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.loginBorder .loginMain .beforClick div {
+  width: 370px;
   height: 50px;
+  padding: 0 10px;
+  background-color: white;
+  border-radius: 7px;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+}
+.loginBorder .loginMain .find {
+  margin-top: 20px;
+  color: white;
+  font-size: 18px;
+  text-align: center;
 }
 
 .signUpBody {
@@ -290,49 +246,11 @@
   top: 40px;
 }
 
-.recruitDetailBody {
-  margin: 0;
-}
-
 .recruitDetailMain {
   margin-left: 250px;
-}
-.recruitDetailMain .inputBox {
-  width: 100%;
-  height: 40px;
-  white-space: nowrap;
-  padding-bottom: 5px;
-  border-bottom: solid rgb(190, 190, 190) 3px;
-}
-.recruitDetailMain .inputBox input {
-  width: 90%;
-  height: 84%;
-  font-size: 18px;
-  display: inline-block;
-  border: none;
-  outline: none;
-  padding-left: 10px;
-  padding-top: 5px;
-}
-.recruitDetailMain .inputBox input::-moz-placeholder {
-  color: rgb(171, 171, 171);
-}
-.recruitDetailMain .inputBox input:-ms-input-placeholder {
-  color: rgb(171, 171, 171);
-}
-.recruitDetailMain .inputBox input::placeholder {
-  color: rgb(171, 171, 171);
-}
-.recruitDetailMain .inputBox button {
-  width: 40px;
-  height: 100%;
-  display: inline-block;
-  margin-left: -7px;
-  outline: none;
-  border: none;
+  text-align: center;
 }
 .recruitDetailMain .writingSection {
-  text-align: center;
   margin: 20px;
 }
 .recruitDetailMain .writingSection .writingBox {
@@ -354,47 +272,53 @@
   background-color: rgba(182, 210, 233, 0.94);
   text-align: start;
 }
-
-.recruitWriteBody {
-  margin: 0;
+.recruitDetailMain .writingSection .comment {
+  text-align: center;
+  margin: 20px 0px;
+  display: inline-block;
+  width: 90%;
+}
+.recruitDetailMain .writingSection .comment .commentInput {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: 20px;
+}
+.recruitDetailMain .writingSection .comment .commentInput input {
+  width: 100%;
+  height: 30px;
+  border-radius: 20px;
+  padding-left: 10px;
+  border: #009FE3 solid 1.5px;
+  font-size: 15px;
+  margin: 0px 10px;
+}
+.recruitDetailMain .writingSection .comment .commentInput .commentPlus {
+  width: 30px;
+  height: 30px;
+  color: #009FE3;
+}
+.recruitDetailMain .writingSection .comment .commentLook {
+  margin: 20px;
+}
+.recruitDetailMain .writingSection .comment .commentLook .nthCommet {
+  margin: 20px;
+  border-bottom: rgb(199, 199, 199) solid 1px;
+  padding-bottom: 10px;
+}
+.recruitDetailMain .writingSection .comment .commentLook .nthCommet .cmtContent {
+  display: block;
+}
+.recruitDetailMain .writingSection .comment .commentLook .nthCommet .cmtDate {
+  margin-top: 10px;
+  display: block;
+  margin-left: 80%;
+  font-size: 13px;
+  color: #009FE3;
 }
 
 .recruitWriteMain {
   margin-left: 250px;
-}
-.recruitWriteMain .inputBox {
-  width: 100%;
-  height: 40px;
-  white-space: nowrap;
-  padding-bottom: 5px;
-  border-bottom: solid rgb(190, 190, 190) 3px;
-}
-.recruitWriteMain .inputBox input {
-  width: 90%;
-  height: 84%;
-  font-size: 18px;
-  display: inline-block;
-  border: none;
-  outline: none;
-  padding-left: 10px;
-  padding-top: 5px;
-}
-.recruitWriteMain .inputBox input::-moz-placeholder {
-  color: rgb(171, 171, 171);
-}
-.recruitWriteMain .inputBox input:-ms-input-placeholder {
-  color: rgb(171, 171, 171);
-}
-.recruitWriteMain .inputBox input::placeholder {
-  color: rgb(171, 171, 171);
-}
-.recruitWriteMain .inputBox button {
-  width: 40px;
-  height: 100%;
-  display: inline-block;
-  margin-left: -7px;
-  outline: none;
-  border: none;
 }
 .recruitWriteMain .writingSection {
   text-align: center;
@@ -469,6 +393,10 @@
   color: white;
 }
 
+body {
+  margin: 0;
+}
+
 .navbar {
   position: fixed;
   background-color: #009FE3;
@@ -485,23 +413,66 @@
   border-bottom: white solid 1px;
   width: 200px;
 }
+.navbar header .fa-square-arrow-down-right,
+.navbar header .fa-square-arrow-down-left {
+  color: white;
+  width: 25px;
+  height: 25px;
+}
 .navbar .myPageBox {
   margin: auto;
-  margin-bottom: 10px;
+  margin-bottom: 4px;
   width: 170px;
-  height: 50px;
+  height: 55px;
   background-color: white;
   border-radius: 7px;
   display: flex;
-  justify-content: space-between;
+  align-items: center;
+  justify-content: space-around;
 }
-.navbar .myPageBox text {
+.navbar .myPageBox .userRound {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: rgb(160, 160, 160);
+}
+.navbar .myPageBox .userRound .fa-user {
+  font-size: 25px;
+  color: white;
+  position: relative;
+  margin: 7px 0 0 9px;
+}
+.navbar .myPageBox .nameBox {
   width: 50px;
+  align-items: center;
+}
+.navbar .myPageBox .nameBox .name {
   color: black;
 }
-.navbar .myPageBox button {
-  width: 30px;
+.navbar .myPageBox .nameBox .school {
+  font-size: 10px;
+  color: rgb(160, 160, 160);
+}
+.navbar .myPageBox .fa-circle-chevron-down {
+  display: "";
+  width: 25px;
+  height: 25px;
+  color: #009FE3;
+}
+.navbar .myPageBox .fa-circle-chevron-up {
+  display: none;
+  width: 25px;
+  height: 25px;
+  color: #009FE3;
+}
+.navbar .hiddenMyPage {
+  display: none;
+  margin: auto;
+  width: 170px;
   height: 30px;
+  background-color: white;
+  border-radius: 7px;
+  text-align: center;
 }
 .navbar .board text, .navbar .linkTo text, .navbar .main text {
   color: white;
@@ -520,4 +491,68 @@
   position: fixed;
   bottom: 0;
   text-align: center;
+}
+
+.inputBox {
+  width: 100%;
+  height: 40px;
+  white-space: nowrap;
+  padding-bottom: 5px;
+  border-bottom: solid rgb(190, 190, 190) 3px;
+}
+.inputBox input {
+  width: 90%;
+  height: 84%;
+  font-size: 18px;
+  display: inline-block;
+  border: none;
+  outline: none;
+  padding-left: 10px;
+  padding-top: 5px;
+}
+.inputBox input::-moz-placeholder {
+  color: rgb(171, 171, 171);
+}
+.inputBox input:-ms-input-placeholder {
+  color: rgb(171, 171, 171);
+}
+.inputBox input::placeholder {
+  color: rgb(171, 171, 171);
+}
+.inputBox button {
+  width: 40px;
+  height: 100%;
+  display: inline-block;
+  margin-left: -7px;
+  outline: none;
+  border: none;
+}
+
+.fixPlus {
+  font-size: 60px;
+  position: fixed;
+  bottom: 60px;
+  right: 40px;
+  color: #009FE3;
+}
+
+.noticePageMain {
+  margin-left: 250px;
+}
+.noticePageMain h4 {
+  margin-left: 10px;
+  color: #009FE3;
+}
+.noticePageMain article {
+  font-size: 17px;
+  color: black;
+  font-weight: 200;
+  border: solid 1px #009FE3;
+  border-radius: 15px;
+  padding: 3px 10px;
+  margin: 25px 15px;
+}
+.noticePageMain .date {
+  font-size: 13px;
+  margin-left: 90%;
 }/*# sourceMappingURL=style.css.map */

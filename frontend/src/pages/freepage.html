@@ -8,16 +8,27 @@
     <title>꿈꾸미</title>
     <script src="https://kit.fontawesome.com/83c8b98790.js" crossorigin="anonymous"></script>
 </head>
-<body class="freePageBody">
+<body>
     <nav class="navbar">
         <header>
             꿈꾸미LOGO
-            <icon></icon>
+            <i class="fa-solid fa-square-arrow-down-right"></i>  
+            <i class="fa-solid fa-square-arrow-down-left"></i>
         </header>
-        <section class="myPage"s>
+        <section class="myPage">
             <div class="myPageBox">
-                <text>이름</text>
-                <button>^</button>
+                <div class="userRound">
+                    <i class="fa-solid fa-user"></i>
+                </div>
+                <div class="nameBox">
+                    <text class="name">이름</text><br>
+                    <text class="school">00대학교</text>
+                </div>
+                <i id="fa-circle-chevron-down" class="fa-solid fa-circle-chevron-down"></i>
+                <i id="fa-circle-chevron-up" class="fa-solid fa-circle-chevron-up"></i>
+            </div>
+            <div class="hiddenMyPage" id="hiddenMyPage">
+                마이페이지
             </div>
         </section>
         <section class="main">
@@ -101,6 +112,7 @@
         </section> 
         
     </main>
+    <i class="fa-solid fa-circle-plus fixPlus"></i>
 </body>
 
 </html>

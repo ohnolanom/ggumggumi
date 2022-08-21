@@ -1,3 +1,7 @@
+body{
+    margin: 0;
+}
+
 .navbar{
     position: fixed;
     background-color: #009FE3;
@@ -15,26 +19,73 @@
         border-bottom: white solid 1px;
         width: 200px;
     }
+    header{
+        .fa-square-arrow-down-right, 
+        .fa-square-arrow-down-left{
+            color: white;
+            width: 25px;
+            height: 25px;
+        }
+    }
 
     .myPageBox{
         margin: auto;
-        margin-bottom: 10px;
+        margin-bottom: 4px;
         width: 170px;
-        height: 50px;
+        height: 55px;
         background-color: white;
         border-radius: 7px;
-
         display: flex;
-        justify-content: space-between;
-
-        text{
+        align-items: center;
+        justify-content: space-around;
+        
+        .userRound{
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            background-color: rgb(160, 160, 160);
+            
+            .fa-user{
+                font-size: 25px;
+                color: white;
+                position: relative;
+                margin: 7px 0 0 9px;
+            }
+        }
+        .nameBox{
             width: 50px;
-            color:black;
+            align-items: center;
+            .name{
+                color:black;
+            }
+            .school{
+                font-size: 10px;
+                color: rgb(160, 160, 160);
+            }
         }
-        button{
-            width: 30px;
-            height: 30px;
+        .fa-circle-chevron-down {
+            display: '';
+            width: 25px;
+            height: 25px;
+            color: #009FE3;
         }
+        .fa-circle-chevron-up {
+            display: none;
+            width: 25px;
+            height: 25px;
+            color: #009FE3;
+        }
+        
+    }   
+    .hiddenMyPage{
+        display: none;
+        //visibility: hidden;
+        margin: auto;
+        width: 170px;
+        height: 30px;
+        background-color: white;
+        border-radius: 7px;
+        text-align: center;
     }
 
     .board, .linkTo, .main{
@@ -58,4 +109,41 @@
         bottom: 0;
         text-align: center;
     }
+}
+
+.inputBox{
+    width: 100%;
+    height: 40px;
+    white-space:nowrap;
+    padding-bottom: 5px;
+    border-bottom: solid rgb(190, 190, 190) 3px;
+    input{
+        width: 90%;
+        height: 84%;
+        font-size: 18px;
+        display:inline-block;
+        border: none;
+        outline:none;
+        padding-left: 10px;
+        padding-top: 5px;
+    }
+    input::placeholder{
+        color: rgb(171, 171, 171);
+    }
+    button{
+        width: 40px;
+        height: 100%;
+        display:inline-block;
+        margin-left: -7px;
+        outline:none;
+        border:none;
+    }
+}
+
+.fixPlus{
+    font-size: 60px;
+    position: fixed;
+    bottom: 60px;
+    right: 40px;
+    color: #009FE3;
 }
